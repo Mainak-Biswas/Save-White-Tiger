@@ -1,0 +1,46 @@
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: #000000eb;
+    overflow: hidden;
+    text-align: center;
+    padding:  20px 0px;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+
+#shrlnk a
+{
+	width: 40px;
+	padding: 0px 20px;
+	color: gray;
+}
+
+#shrlnk a:hover
+{
+	color: white;
+}
+ #auname
+ {
+ 	float: right;
+ 	font-size: 12px;
+ 	margin-right: 10px;
+ 	color: #505050;
+ }
+
+ #auname:hover
+ {
+ 	color: #ffffff;
+ }
+
+ #cname
+ {
+ 	float: left;
+ 	font-size: 12px;
+ 	margin-left: 10px;
+ 	color: #505050;
+ }
+
+ #cname:hover
+ {
+ 	color: #ffffff;
+ }

@@ -1,0 +1,99 @@
+body{
+	display: block;
+	margin: 0px;
+}
+
+a{
+	text-decoration:none;
+}
+
+#main{
+	margin-top: -10px;
+}
+
+.mainimg{
+	width: 100%;
+	height: 350px;
+	overflow: hidden;
+	display: inline-block;
+}
+
+#myP{
+	height: auto;
+	scroll-behavior: smooth;
+    min-width: 700px;
+    margin-top: -10%;
+    top: 50px;
+    object-fit: cover;
+    position: fixed;
+    z-index: 20;
+}
+
+.mainimg #mainquote{
+	height: auto;
+	width: auto;
+	border: solid #fff;
+	border-width: 5px;
+	color: #fff;
+	font-family: "Segoe UI",Arial,sans-serif;
+	font-size: 200%;
+	text-align: justify-all;
+	top: -85%;
+	left: 3%;
+	padding: 3%;
+	position: relative;
+	z-index: 22;
+}
+.mainimg #foreground{
+	background-image: linear-gradient( rgba(242, 242, 242, 0.0), rgba(0, 0, 0, 0.9));
+	height: 100%;
+	width: 100%;
+	position: relative;
+	z-index: 21;
+}
+
+.maintxt{
+	background-image: linear-gradient( rgba(030,030,030,1), rgba(255,255,255,1));
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 2000px 2000px;
+	background-position: 0px 0px;
+	z-index: 23;
+	margin-top: -5px;
+	position:relative;
+	padding: 20px 90px;
+	font-family: "Segoe UI",Arial,sans-serif;
+}
+
+.maintxt p
+{
+	padding: 30px 30px;
+	text-align: justify;
+	background: #f0f0f0;
+	box-shadow: 0px 2px 14px 1px #000;
+	border-radius:2px;
+	opacity: 1;
+}
+@media only screen and (max-width: 600px)
+{
+    .mainimg{
+	height: 250px;
+	}
+
+	.mainimg img{
+    top: -140%;
+	}
+
+	.maintxt{
+	padding: 20px 20px;
+	background-size: initial;
+	}
+   
+}
+
+h1
+{
+	color: #fff;
+	text-shadow: 0px 2px 9px #000;
+
+}
