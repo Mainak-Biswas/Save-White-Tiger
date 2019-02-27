@@ -9,7 +9,6 @@ function shwflw()
 	else
 	{
 		x.style.top = "0px";
-  		document.getElementById("src-box").focus();
   		document.getElementById("srch").style.top = "-500px";
   		document.getElementById("shr").style.top = "-500px";
 	}
