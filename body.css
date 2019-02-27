@@ -55,7 +55,7 @@ a{
 .maintxt{
 	background-image: url(image/wht_tigerb.jpg);
 	background-attachment: fixed;
-	background-size: 2000px 2000px;
+	background-size: 2000px 20000px;
 	background-repeat: repeat-y;
 	background-position: 0px 0px;
 	z-index: 23;
