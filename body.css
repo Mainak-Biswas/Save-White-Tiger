@@ -35,7 +35,7 @@ a{
 	border: solid #fff;
 	border-width: 5px;
 	color: #fff;
-	font-family: "Segoe UI",Arial,sans-serif;
+	font-family: Lucida Sans Unicode,Arial,sans-serif;
 	font-size: 200%;
 	text-align: justify-all;
 	top: -85%;
@@ -62,12 +62,12 @@ a{
 	margin-top: -5px;
 	position:relative;
 	padding: 20px 90px;
-	font-family: "Segoe UI",Arial,sans-serif;
+	font-family: Lucida Sans Unicode,Arial,sans-serif;
 }
 
 .maintxt p
 {
-	padding: 30px 30px;
+	padding: 40px 30px;
 	text-align: justify;
 	background: #f0f0f0;
 	box-shadow: 0px 2px 14px 1px #000;
@@ -75,7 +75,8 @@ a{
 	opacity: 1;
 }
 
-h1
+
+.maintxt h1
 {
 	color: #fff;
 	text-shadow: 0px 2px 9px #000;
@@ -99,7 +100,7 @@ h1
 
 	.maintxt p
 	{
-	padding: 30px 20px;
+	padding: 40px 20px;
    	}
 
    	h1
