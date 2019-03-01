@@ -8,7 +8,7 @@ function myScroll()
 	{
   		if (document.body.scrollTop > 6*i || document.documentElement.scrollTop > 6*i)
   		{
-    		document.getElementById("myP").style.top = (-2*i)  +50+ "px";
+    		document.getElementById("myP").style.top = (-1*i)  +50+ "px";
   		}
   	}
 
