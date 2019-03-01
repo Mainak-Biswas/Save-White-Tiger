@@ -23,7 +23,16 @@
 	<script src="simg.js" type="text/javascript"></script>	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>		
 	<script type="text/javascript">
-		document.getElementById('main').onclick = function() {hidesrc() , hideflw(), hideshr(), hidehdr()}
+		document.getElementById("main").addEventListener("click", hidesrc,false); //function() {hidesrc() , hideflw(), hideshr(), hidehdr()}
+		function hidesrc()
+		{
+			var x = document.getElementById("srch")
+			if(x.style.top === "0px")
+			{
+				x.style.top = "-500px";
+			}
+		}
+
 	</script>	
 
 
@@ -134,6 +143,7 @@
 		</a>
 	</div>
 	<hr width="200px" color="gray">
+	<input type="date" id="myDate" autofocus>
 	<div id="author">
 		<a id="cname" href=""> Bloggers.Co. © 2019</a>
 		<a id="auname" href="">By Mainak Biswas</a>

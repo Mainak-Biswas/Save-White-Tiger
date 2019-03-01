@@ -33,3 +33,4 @@ function myScroll()
 			document.getElementById("shr").style.position = "";
 		}
 }
+
