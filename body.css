@@ -53,7 +53,7 @@ a{
 }
 
 .maintxt{
-	background-image: url(image/wht_tigerb.jpg);
+	background-image: url(image/wht_tigerb.jpg),linear-gradient(#eb01a5, #d13531);
 	background-attachment: fixed;
 	background-size: 2000px 20000px;
 	background-repeat: repeat-y;
