@@ -24,15 +24,6 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>		
 	<script type="text/javascript">
 		document.getElementById("main").addEventListener("click", hidesrc,false); //function() {hidesrc() , hideflw(), hideshr(), hidehdr()}
-		function hidesrc()
-		{
-			var x = document.getElementById("srch")
-			if(x.style.top === "0px")
-			{
-				x.style.top = "-500px";
-			}
-		}
-
 	</script>	
 
 
@@ -100,7 +91,7 @@
 
 
 
-<div id="main" >
+<div id="main" onclick="hidesrc() , hideflw(), hideshr(), hidehdr()" >
 	<div class="mainimg" >		
 		<img class="mainimg" id="myP" src="image\wht_tiger.jpg">
 		<div class="mainimg" id="foreground"></div>
@@ -143,6 +134,7 @@
 		</a>
 	</div>
 	<hr width="200px" color="gray">
+	<br><br>
 	<div id="author">
 		<a id="cname" href=""> Bloggers.Co. © 2019</a>
 		<a id="auname" href="">By Mainak Biswas</a>
