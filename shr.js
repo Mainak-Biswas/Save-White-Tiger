@@ -1,3 +1,4 @@
+document.getElementById("shrs").onclick = shwshr;
 
 function shwshr()
 {

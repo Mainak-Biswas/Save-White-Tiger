@@ -1,3 +1,4 @@
+document.getElementById("flws").onclick = shwflw;
 
 function shwflw()
 {

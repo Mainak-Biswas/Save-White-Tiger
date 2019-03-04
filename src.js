@@ -1,4 +1,4 @@
-
+document.getElementById("srchs").onclick = shwsrc;
 
 function shwsrc()
 {

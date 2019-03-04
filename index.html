@@ -9,23 +9,16 @@
 
 
 	<link rel="shortcut icon" href="media\p1-logo.png">
-  	<link href='https://fonts.googleapis.com/css?family=Yantramanav' rel='stylesheet'>
-  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
+  	<link href='https://fonts.googleapis.com/css?family=Yantramanav' rel='stylesheet'>
+
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 	<link rel="stylesheet" href="header.css">
 	<link rel="stylesheet" href="footer.css">
 	<link rel="stylesheet" href="body.css">
 
-	<script src="src.js" type="text/javascript"></script>	
-	<script src="flw.js" type="text/javascript"></script>		
-	<script src="shr.js" type="text/javascript"></script>
-	<script src="header.js" type="text/javascript"></script>	
-	<script src="simg.js" type="text/javascript"></script>	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>		
-	<script type="text/javascript">
-		document.getElementById("main").addEventListener("click", hidesrc,false); //function() {hidesrc() , hideflw(), hideshr(), hidehdr()}
-	</script>	
-
+	
 
 </head>
 
@@ -44,9 +37,9 @@
 				</div>
 			</div>
 			<div id="hm"><a href="">HOME</a></div>
-			<div id="srhs" onclick="shwshr()">SHARE</div>
-			<div id="flws" onclick="shwflw()">FOLLOW</div>
-			<div id="srchs" onclick="shwsrc()">SEARCH</div>
+			<div id="shrs" >SHARE</div>
+			<div id="flws" >FOLLOW</div>
+			<div id="srchs" >SEARCH</div>
 		</label>
 	</div>
 	
@@ -91,7 +84,7 @@
 
 
 
-<div id="main" onclick="hidesrc() , hideflw(), hideshr(), hidehdr()" >
+<div id="main" >
 	<div class="mainimg" >		
 		<img class="mainimg" id="myP" src="image\wht_tiger.jpg">
 		<div class="mainimg" id="foreground"></div>
@@ -140,6 +133,13 @@
 		<a id="auname" href="">By Mainak Biswas</a>
 	</div>
 </div>
+
+
+	<script src="src.js" type="text/javascript"></script>	
+	<script src="flw.js" type="text/javascript"></script>		
+	<script src="shr.js" type="text/javascript"></script>
+	<script src="header.js" type="text/javascript"></script>	
+	<script src="simg.js" type="text/javascript"></script>	
 
 </body>
 
