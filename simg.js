@@ -6,7 +6,7 @@ function myScroll()
 	var i;
 	for (i = 0; i < 800; i++)
 	{
-  		if (document.body.scrollTop > 6*i || document.documentElement.scrollTop > 6*i)
+  		if (document.body.scrollTop > 2*i || document.documentElement.scrollTop > 2*i)
   		{
     		document.getElementById("myP").style.top = (-1*i)  +50+ "px";
   		}
@@ -14,7 +14,7 @@ function myScroll()
 
   	for (i = 0; i < 800; i++)
 	{
-  		if (document.body.scrollTop > 6*i || document.documentElement.scrollTop > 6*i)
+  		if (document.body.scrollTop > 2*i || document.documentElement.scrollTop > 2*i)
   		{
     		document.getElementById("maintxt").style.backgroundPosition = '0px ' + (-2*i) + 'px';
   		}
