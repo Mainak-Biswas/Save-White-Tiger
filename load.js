@@ -1,5 +1,4 @@
-var preloader = document.getElementbyId("loading");
-function load()
-{
-	preloader.style.display = 'none';
-}
+function loads()
+		{
+			document.getElementById('loading').style.display = 'none';
+		}
