@@ -2,7 +2,7 @@
 #loading 
 {
 	position: fixed;
-	background: #000000;
+	background: #fff;
 	margin: 0;
 	padding: 0;
 	justify-content: center;
@@ -18,7 +18,7 @@
 	height:100px; 
 	margin-top:250px; 
 	position: absolute;
-	color: #fff;
+	color: #000;
 	font-family: monospace;
 }
 
@@ -36,7 +36,7 @@
 #loading .load span
 {
 	border-radius: 50%;
-	border: 3px solid #fff;
+	border: 3px solid #000
 	position: absolute;
 	display: block;
 	animation: wave 2s ease-in-out infinite;
