@@ -13,14 +13,6 @@ function myScroll()
   		}
   	}
 
-  	for (i = 0; i < 800; i++)
-	{
-  		if (document.body.scrollTop > 2*i || document.documentElement.scrollTop > 2*i)
-  		{
-    		document.getElementById("maintxt").style.backgroundPosition = '0px ' + (-2*i) + 'px';
-  		}
-  	}
-
   	if (document.body.scrollTop > 55 || document.documentElement.scrollTop > 55)
 		{
 			document.getElementById("srch").style.position = "fixed";
