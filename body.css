@@ -62,7 +62,7 @@ a{
 	background-image: url(image/wht_tigerb.jpg),linear-gradient(rgba(0,0,0,1), rgba(252,252,252,1));
 	background-attachment: fixed;
 	background-size: 2000px 1800px;
-	background-repeat: repeat-y;
+	background-repeat: none;
 	background-position: 0px 0px;
 	z-index: 23;
 	margin-top: -5px;
